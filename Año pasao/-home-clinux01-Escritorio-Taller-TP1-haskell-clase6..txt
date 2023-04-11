@@ -1,0 +1,1 @@
+/home/clinux01/Escritorio/Taller/TP1/haskell/clase6.hs
