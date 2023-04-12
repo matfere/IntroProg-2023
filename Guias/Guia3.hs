@@ -73,4 +73,40 @@ prodInt a b = (fst a) * (fst b) + (snd a) * (snd b)
 --b
 todoMenor :: (Integer, Integer) -> (Integer, Integer) -> Bool
 todoMenor a b = (fst a) < (fst b) && (snd a) < (snd b)
+
+--c
+distanciaPuntos :: (Float, Float) -> (Float, Float) -> Float
+distanciaPuntos a b = sqrt ((((fst a)-(fst b))^2) + (((snd a)-(snd b))^2))
  
+--d
+sumaTerna :: (Integer, Integer, Integer) -> Integer
+sumaTerna (a,b,c) = a + b + c
+
+--e
+sumarSoloMultiplos :: (Integer, Integer, Integer) -> Integer -> Integer
+sumarSoloMultiplos (a,b,c) n | esMultiploDe n a && esMultiploDe n b && esMultiploDe n c = a + b + c
+                             | esMultiploDe n a && esMultiploDe n b && esMultiploDe n c == False = a + b
+                             | esMultiploDe n a && esMultiploDe n b == False && esMultiploDe n c = a + c
+                             | esMultiploDe n a == False && esMultiploDe n b && esMultiploDe n c = b + c
+                             | esMultiploDe n a && esMultiploDe n b == False && esMultiploDe n c == False = a
+                             | esMultiploDe n a == False && esMultiploDe n b && esMultiploDe n c == False = b 
+                             | esMultiploDe n a == False && esMultiploDe n b == False && esMultiploDe n c = c
+                             | otherwise = 0
+
+--f
+posPrimerPar :: (Integer, Integer, Integer) -> Integer
+posPrimerPar (a,b,c) | esPar a = 1
+                     | esPar b = 2
+                     | esPar c = 3
+                     | otherwise = 4
+
+esPar :: Integer -> Bool
+esPar n = mod n 2 == 0
+
+--g
+crearPar :: a ->b ->(a, b)
+crearPar a b = (a , b)
+
+--h
+invertir :: (a, b) -> (b, a)
+invertir (a, b) = (b, a)
