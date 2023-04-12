@@ -133,7 +133,11 @@ distanciaManhattan :: (Float, Float, Float) ->(Float, Float, Float) ->Float
 distanciaManhattan (a,b,c) (x,y,z) = abs(a-x) + abs(b-y) + abs(c-z)
 
 --Ejercicio 8
---comparar :: Integer ->Integer ->Integer
+comparar :: Integer -> Integer ->Integer
+comparar n m | sumaUltimosDosDigitos n < sumaUltimosDosDigitos m = 1
+             | sumaUltimosDosDigitos n > sumaUltimosDosDigitos m = -1
+             | sumaUltimosDosDigitos n == sumaUltimosDosDigitos m = 0
 
---sumaUltimosDosDigitos :: Integer -> Integer
---sumaUltimosDosDigitos a = 
+
+sumaUltimosDosDigitos :: Integer -> Integer
+sumaUltimosDosDigitos a = digitoDecenas a + digitoUnidades a
