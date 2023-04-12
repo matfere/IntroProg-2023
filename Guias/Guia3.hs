@@ -110,3 +110,30 @@ crearPar a b = (a , b)
 --h
 invertir :: (a, b) -> (b, a)
 invertir (a, b) = (b, a)
+
+--Ejercicio 5
+
+todosMenores :: (Integer, Integer, Integer) -> Bool
+todosMenores (n,m,w) = (f n) > (g n) && (f m) > (g m) && (f w) > (g w)
+
+f :: Integer -> Integer
+f n | n <= 7 = n^2
+    | n > 7 = 2 * n -1
+
+g :: Integer -> Integer 
+g n | esPar n = n `div` 2 
+    | otherwise = 3 * n + 1
+
+--Ejercicio 6
+bisiesto :: Integer -> Bool
+bisiesto n = esMultiploDe 4 n
+
+--Ejercicio 7
+distanciaManhattan :: (Float, Float, Float) ->(Float, Float, Float) ->Float
+distanciaManhattan (a,b,c) (x,y,z) = abs(a-x) + abs(b-y) + abs(c-z)
+
+--Ejercicio 8
+--comparar :: Integer ->Integer ->Integer
+
+--sumaUltimosDosDigitos :: Integer -> Integer
+--sumaUltimosDosDigitos a = 
