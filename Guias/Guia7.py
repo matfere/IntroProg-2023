@@ -67,6 +67,25 @@ def raiz_cuadrada_de(numero: float) -> float:
 def imprimir_dos_veces(estribillo: str) -> str:
     return (estribillo + "\n" + estribillo)
 
+#4
+def es_multiplo_de(n: int, m: int) -> bool:
+    if(n%m == 0):
+        return True
+    else:
+        return False
+        
+#5
+def es_par(numero: int) -> bool:
+    if(es_multiplo_de(numero, 2)):
+        return True
+    else:
+        return False
+    
+#6
+def cantidad_de_pizzas(comensales: int, min_cantidad_de_porciones: int) -> int: #la cantidad de porciones por pizza es de 8, y la minima cantidad que come cada uno es el segundo parametro
+    
+    return null
+
 print("Ejercicio 1 \n")
 print("1) ", raizDe2())
 print("2) ", imprimir_hola())
@@ -77,12 +96,12 @@ print("6) ", factorial_4())
 print("7) ", factorial_5(), "\n")
 
 print("Ejercicio 2 \n")
-print("1)", imprimir_saludo(nombre = str(input("ingresa tu nombre: \n"))))
-print("2)", raiz_cuadrada_de(numero = float(input("ingresa un numero: \n"))))
-print("3)\n", imprimir_dos_veces(estribillo = str(input("ingresa tu estribillo: \n"))))
-
-
-
+#print("1)", imprimir_saludo(nombre = str(input("ingresa tu nombre: \n"))))
+#print("2)", raiz_cuadrada_de(numero = float(input("ingresa un numero: \n"))))
+#print("3)\n", imprimir_dos_veces(estribillo = str(input("ingresa tu estribillo: \n"))))
+#print("4)\n", es_multiplo_de(n = int(input("ingresa un numero : \n")), m = int(input("ingresa otro numero : \n"))))
+#print("5)\n", es_par(numero = int(input("ingresa un numero : \n"))))
+#print("6)\n", es_par(numero = int(input("ingresa un numero : \n"))))
 
 
 
