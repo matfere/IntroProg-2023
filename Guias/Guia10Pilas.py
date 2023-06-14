@@ -4,7 +4,8 @@ from queue import LifoQueue as Pila
 
 #8
 def generarNrosAlAzar(n: int, desde: int, hasta: int) -> List[int]:
-    return random.sample(range(desde, hasta+1), n)
+    numeros = random.sample(range(desde, hasta+1), n)
+    return numeros
 
 #9
 def pilaAlAzar(lista: List[int]):
