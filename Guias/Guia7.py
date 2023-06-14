@@ -102,6 +102,3 @@ print("Ejercicio 2 \n")
 #print("4)\n", es_multiplo_de(n = int(input("ingresa un numero : \n")), m = int(input("ingresa otro numero : \n"))))
 #print("5)\n", es_par(numero = int(input("ingresa un numero : \n"))))
 #print("6)\n", es_par(numero = int(input("ingresa un numero : \n"))))
-
-
-
