@@ -1,0 +1,961 @@
+nro de LU,materia,fecha,nota
+LU001,Química,2023-01-01,5.9
+LU001,Álgebra lineal,2023-01-01,7.6
+LU001,Física,2023-01-01,6.4
+LU001,Estadística,2023-01-01,8.0
+LU001,Investigación operativa,2023-01-01,5.1
+LU001,Álgebra,2023-01-01,8.8
+LU002,Estadística,2023-01-01,5.5
+LU002,Álgebra lineal,2023-01-01,6.5
+LU002,Álgebra,2023-01-01,7.7
+LU002,Matemáticas aplicadas,2023-01-01,7.5
+LU002,Física,2023-01-01,9.4
+LU002,Probabilidad,2023-01-01,5.5
+LU002,Cálculo,2023-01-01,6.9
+LU002,Biología,2023-01-01,6.9
+LU002,Mecánica cuántica,2023-01-01,4.8
+LU002,Química,2023-01-01,7.9
+LU002,Programación,2023-01-01,7.9
+LU002,Geometría,2023-01-01,8.6
+LU002,Topología,2023-01-01,5.8
+LU003,Cálculo,2023-01-01,5.7
+LU003,Química,2023-01-01,7.3
+LU003,Programación,2023-01-01,6.4
+LU003,Física,2023-01-01,8.7
+LU003,Investigación operativa,2023-01-01,8.6
+LU003,Estadística,2023-01-01,5.8
+LU003,Álgebra lineal,2023-01-01,7.4
+LU003,Mecánica cuántica,2023-01-01,4.7
+LU003,Matemáticas aplicadas,2023-01-01,9.0
+LU004,Geometría,2023-01-01,4.5
+LU004,Química,2023-01-01,5.7
+LU004,Matemáticas aplicadas,2023-01-01,7.8
+LU004,Biología,2023-01-01,7.2
+LU004,Física,2023-01-01,5.9
+LU004,Álgebra lineal,2023-01-01,4.5
+LU004,Álgebra,2023-01-01,9.1
+LU004,Optimización,2023-01-01,7.6
+LU004,Programación,2023-01-01,6.3
+LU004,Topología,2023-01-01,5.2
+LU004,Estadística,2023-01-01,5.5
+LU004,Probabilidad,2023-01-01,7.3
+LU004,Cálculo,2023-01-01,5.0
+LU004,Mecánica cuántica,2023-01-01,8.8
+LU005,Investigación operativa,2023-01-01,4.8
+LU005,Mecánica cuántica,2023-01-01,4.3
+LU005,Matemáticas aplicadas,2023-01-01,4.7
+LU005,Topología,2023-01-01,4.0
+LU005,Probabilidad,2023-01-01,9.9
+LU005,Biología,2023-01-01,6.1
+LU006,Álgebra,2023-01-01,5.6
+LU006,Física,2023-01-01,8.1
+LU006,Biología,2023-01-01,8.4
+LU006,Geometría,2023-01-01,9.5
+LU006,Matemáticas aplicadas,2023-01-01,8.1
+LU006,Química,2023-01-01,6.3
+LU006,Cálculo,2023-01-01,10.0
+LU006,Investigación operativa,2023-01-01,7.4
+LU007,Optimización,2023-01-01,6.7
+LU007,Biología,2023-01-01,4.6
+LU007,Álgebra,2023-01-01,9.8
+LU008,Mecánica cuántica,2023-01-01,6.0
+LU008,Topología,2023-01-01,4.8
+LU008,Probabilidad,2023-01-01,9.5
+LU008,Química,2023-01-01,4.9
+LU008,Biología,2023-01-01,5.6
+LU008,Geometría,2023-01-01,9.1
+LU008,Álgebra lineal,2023-01-01,4.0
+LU009,Física,2023-01-01,5.9
+LU009,Cálculo,2023-01-01,7.4
+LU009,Estadística,2023-01-01,7.7
+LU009,Probabilidad,2023-01-01,7.9
+LU009,Matemáticas aplicadas,2023-01-01,7.1
+LU009,Química,2023-01-01,4.3
+LU009,Optimización,2023-01-01,8.0
+LU009,Biología,2023-01-01,4.1
+LU009,Álgebra lineal,2023-01-01,9.6
+LU009,Topología,2023-01-01,4.7
+LU009,Investigación operativa,2023-01-01,7.9
+LU010,Biología,2023-01-01,6.8
+LU010,Química,2023-01-01,9.1
+LU010,Física,2023-01-01,5.0
+LU010,Programación,2023-01-01,9.4
+LU010,Geometría,2023-01-01,9.0
+LU010,Mecánica cuántica,2023-01-01,9.7
+LU010,Probabilidad,2023-01-01,4.0
+LU010,Cálculo,2023-01-01,5.8
+LU011,Mecánica cuántica,2023-01-01,5.6
+LU011,Matemáticas aplicadas,2023-01-01,5.3
+LU011,Probabilidad,2023-01-01,4.9
+LU011,Investigación operativa,2023-01-01,6.7
+LU011,Física,2023-01-01,8.0
+LU011,Geometría,2023-01-01,6.0
+LU011,Cálculo,2023-01-01,4.9
+LU011,Estadística,2023-01-01,7.6
+LU012,Mecánica cuántica,2023-01-01,9.0
+LU012,Programación,2023-01-01,4.5
+LU012,Probabilidad,2023-01-01,4.5
+LU012,Estadística,2023-01-01,7.3
+LU012,Matemáticas aplicadas,2023-01-01,4.7
+LU012,Investigación operativa,2023-01-01,7.2
+LU012,Física,2023-01-01,4.3
+LU012,Biología,2023-01-01,5.5
+LU012,Geometría,2023-01-01,4.0
+LU012,Cálculo,2023-01-01,9.3
+LU012,Álgebra,2023-01-01,5.9
+LU012,Química,2023-01-01,7.2
+LU013,Álgebra lineal,2023-01-01,5.4
+LU013,Biología,2023-01-01,7.6
+LU013,Probabilidad,2023-01-01,4.0
+LU013,Matemáticas aplicadas,2023-01-01,7.2
+LU013,Programación,2023-01-01,6.0
+LU013,Mecánica cuántica,2023-01-01,5.1
+LU013,Física,2023-01-01,4.4
+LU013,Optimización,2023-01-01,4.9
+LU013,Estadística,2023-01-01,9.3
+LU013,Química,2023-01-01,9.9
+LU013,Investigación operativa,2023-01-01,7.0
+LU013,Álgebra,2023-01-01,9.9
+LU013,Cálculo,2023-01-01,4.2
+LU013,Geometría,2023-01-01,7.4
+LU013,Topología,2023-01-01,8.9
+LU014,Programación,2023-01-01,7.4
+LU014,Física,2023-01-01,4.1
+LU014,Biología,2023-01-01,9.2
+LU014,Geometría,2023-01-01,8.1
+LU014,Optimización,2023-01-01,7.1
+LU014,Investigación operativa,2023-01-01,4.2
+LU014,Estadística,2023-01-01,5.4
+LU014,Mecánica cuántica,2023-01-01,7.2
+LU014,Química,2023-01-01,6.1
+LU014,Álgebra,2023-01-01,5.1
+LU014,Matemáticas aplicadas,2023-01-01,8.4
+LU014,Probabilidad,2023-01-01,9.5
+LU014,Cálculo,2023-01-01,6.7
+LU014,Álgebra lineal,2023-01-01,8.7
+LU015,Probabilidad,2023-01-01,4.8
+LU015,Álgebra lineal,2023-01-01,9.4
+LU015,Estadística,2023-01-01,6.4
+LU015,Topología,2023-01-01,9.2
+LU015,Biología,2023-01-01,8.9
+LU015,Mecánica cuántica,2023-01-01,7.3
+LU015,Programación,2023-01-01,7.8
+LU015,Química,2023-01-01,4.3
+LU015,Álgebra,2023-01-01,8.3
+LU015,Matemáticas aplicadas,2023-01-01,9.8
+LU015,Geometría,2023-01-01,5.4
+LU015,Investigación operativa,2023-01-01,8.5
+LU015,Cálculo,2023-01-01,6.7
+LU015,Optimización,2023-01-01,4.1
+LU015,Física,2023-01-01,9.7
+LU016,Matemáticas aplicadas,2023-01-01,5.9
+LU016,Investigación operativa,2023-01-01,4.1
+LU016,Geometría,2023-01-01,8.8
+LU016,Química,2023-01-01,6.5
+LU016,Mecánica cuántica,2023-01-01,4.7
+LU016,Topología,2023-01-01,7.7
+LU016,Álgebra,2023-01-01,6.6
+LU016,Álgebra lineal,2023-01-01,4.1
+LU016,Probabilidad,2023-01-01,5.9
+LU016,Programación,2023-01-01,8.2
+LU016,Estadística,2023-01-01,9.5
+LU016,Cálculo,2023-01-01,10.0
+LU017,Topología,2023-01-01,9.5
+LU017,Álgebra lineal,2023-01-01,7.1
+LU017,Geometría,2023-01-01,4.3
+LU017,Álgebra,2023-01-01,5.2
+LU017,Investigación operativa,2023-01-01,5.3
+LU017,Matemáticas aplicadas,2023-01-01,5.3
+LU017,Probabilidad,2023-01-01,7.7
+LU017,Física,2023-01-01,8.5
+LU017,Cálculo,2023-01-01,6.3
+LU018,Topología,2023-01-01,4.1
+LU018,Física,2023-01-01,8.8
+LU018,Probabilidad,2023-01-01,4.4
+LU018,Matemáticas aplicadas,2023-01-01,5.0
+LU018,Programación,2023-01-01,4.1
+LU018,Química,2023-01-01,8.9
+LU018,Geometría,2023-01-01,7.6
+LU018,Álgebra,2023-01-01,7.1
+LU018,Biología,2023-01-01,8.2
+LU018,Investigación operativa,2023-01-01,6.7
+LU018,Mecánica cuántica,2023-01-01,9.9
+LU018,Álgebra lineal,2023-01-01,4.0
+LU018,Cálculo,2023-01-01,8.3
+LU018,Estadística,2023-01-01,4.1
+LU019,Álgebra lineal,2023-01-01,4.7
+LU019,Química,2023-01-01,6.6
+LU019,Topología,2023-01-01,7.1
+LU019,Matemáticas aplicadas,2023-01-01,4.4
+LU019,Cálculo,2023-01-01,4.5
+LU019,Optimización,2023-01-01,8.7
+LU020,Biología,2023-01-01,6.3
+LU020,Programación,2023-01-01,6.1
+LU020,Optimización,2023-01-01,4.3
+LU020,Química,2023-01-01,9.7
+LU020,Cálculo,2023-01-01,6.0
+LU020,Geometría,2023-01-01,8.2
+LU020,Probabilidad,2023-01-01,7.7
+LU020,Álgebra lineal,2023-01-01,7.4
+LU020,Matemáticas aplicadas,2023-01-01,9.1
+LU020,Mecánica cuántica,2023-01-01,7.3
+LU020,Investigación operativa,2023-01-01,4.8
+LU020,Álgebra,2023-01-01,7.2
+LU020,Topología,2023-01-01,9.5
+LU020,Física,2023-01-01,8.8
+LU020,Estadística,2023-01-01,5.6
+LU021,Álgebra,2023-01-01,4.1
+LU021,Probabilidad,2023-01-01,7.1
+LU021,Geometría,2023-01-01,7.0
+LU022,Matemáticas aplicadas,2023-01-01,8.0
+LU022,Estadística,2023-01-01,9.9
+LU022,Álgebra,2023-01-01,5.6
+LU022,Investigación operativa,2023-01-01,8.7
+LU022,Física,2023-01-01,8.0
+LU022,Mecánica cuántica,2023-01-01,4.7
+LU022,Cálculo,2023-01-01,7.6
+LU022,Programación,2023-01-01,7.7
+LU023,Probabilidad,2023-01-01,8.3
+LU023,Física,2023-01-01,7.1
+LU023,Cálculo,2023-01-01,7.3
+LU023,Química,2023-01-01,4.5
+LU023,Investigación operativa,2023-01-01,8.0
+LU023,Mecánica cuántica,2023-01-01,7.6
+LU023,Optimización,2023-01-01,5.0
+LU023,Topología,2023-01-01,8.9
+LU023,Biología,2023-01-01,5.9
+LU023,Estadística,2023-01-01,5.3
+LU023,Programación,2023-01-01,5.6
+LU023,Álgebra,2023-01-01,6.5
+LU023,Geometría,2023-01-01,5.0
+LU023,Álgebra lineal,2023-01-01,9.5
+LU024,Investigación operativa,2023-01-01,4.4
+LU024,Álgebra lineal,2023-01-01,9.5
+LU024,Cálculo,2023-01-01,5.1
+LU024,Programación,2023-01-01,6.4
+LU025,Geometría,2023-01-01,9.7
+LU025,Álgebra lineal,2023-01-01,8.6
+LU025,Mecánica cuántica,2023-01-01,6.9
+LU025,Biología,2023-01-01,7.8
+LU025,Estadística,2023-01-01,7.6
+LU025,Química,2023-01-01,6.2
+LU025,Topología,2023-01-01,5.0
+LU025,Álgebra,2023-01-01,9.6
+LU025,Probabilidad,2023-01-01,8.7
+LU025,Programación,2023-01-01,6.9
+LU025,Optimización,2023-01-01,7.2
+LU025,Física,2023-01-01,8.5
+LU025,Matemáticas aplicadas,2023-01-01,5.9
+LU025,Cálculo,2023-01-01,6.3
+LU025,Investigación operativa,2023-01-01,7.9
+LU026,Física,2023-01-01,9.2
+LU026,Álgebra lineal,2023-01-01,4.1
+LU026,Mecánica cuántica,2023-01-01,7.0
+LU026,Geometría,2023-01-01,4.6
+LU026,Cálculo,2023-01-01,8.2
+LU026,Investigación operativa,2023-01-01,4.3
+LU026,Probabilidad,2023-01-01,8.7
+LU026,Álgebra,2023-01-01,8.8
+LU026,Topología,2023-01-01,5.9
+LU026,Estadística,2023-01-01,8.0
+LU027,Programación,2023-01-01,5.9
+LU027,Álgebra lineal,2023-01-01,9.6
+LU027,Investigación operativa,2023-01-01,7.5
+LU027,Matemáticas aplicadas,2023-01-01,4.9
+LU027,Física,2023-01-01,4.4
+LU027,Biología,2023-01-01,5.0
+LU027,Cálculo,2023-01-01,6.4
+LU027,Topología,2023-01-01,6.9
+LU027,Mecánica cuántica,2023-01-01,9.9
+LU027,Optimización,2023-01-01,9.9
+LU027,Probabilidad,2023-01-01,9.9
+LU027,Química,2023-01-01,5.1
+LU028,Cálculo,2023-01-01,4.3
+LU028,Topología,2023-01-01,8.7
+LU028,Biología,2023-01-01,9.6
+LU028,Matemáticas aplicadas,2023-01-01,6.7
+LU028,Optimización,2023-01-01,5.5
+LU028,Estadística,2023-01-01,8.3
+LU028,Investigación operativa,2023-01-01,4.6
+LU028,Física,2023-01-01,8.7
+LU028,Mecánica cuántica,2023-01-01,8.5
+LU028,Química,2023-01-01,8.5
+LU029,Física,2023-01-01,9.7
+LU029,Álgebra,2023-01-01,5.9
+LU029,Matemáticas aplicadas,2023-01-01,8.4
+LU029,Álgebra lineal,2023-01-01,6.4
+LU029,Estadística,2023-01-01,5.2
+LU030,Topología,2023-01-01,6.3
+LU030,Matemáticas aplicadas,2023-01-01,7.5
+LU030,Optimización,2023-01-01,6.2
+LU030,Programación,2023-01-01,7.5
+LU030,Probabilidad,2023-01-01,4.2
+LU030,Investigación operativa,2023-01-01,6.2
+LU030,Química,2023-01-01,5.1
+LU030,Mecánica cuántica,2023-01-01,9.9
+LU030,Biología,2023-01-01,9.7
+LU031,Álgebra lineal,2023-01-01,5.2
+LU031,Física,2023-01-01,6.7
+LU031,Programación,2023-01-01,4.5
+LU031,Química,2023-01-01,8.0
+LU031,Probabilidad,2023-01-01,8.3
+LU031,Álgebra,2023-01-01,6.3
+LU031,Geometría,2023-01-01,6.3
+LU031,Estadística,2023-01-01,6.5
+LU031,Matemáticas aplicadas,2023-01-01,8.6
+LU031,Topología,2023-01-01,6.4
+LU031,Mecánica cuántica,2023-01-01,8.9
+LU031,Biología,2023-01-01,6.7
+LU032,Matemáticas aplicadas,2023-01-01,8.2
+LU032,Biología,2023-01-01,9.5
+LU032,Álgebra,2023-01-01,6.4
+LU032,Cálculo,2023-01-01,7.5
+LU032,Geometría,2023-01-01,6.7
+LU032,Química,2023-01-01,7.8
+LU032,Programación,2023-01-01,7.7
+LU032,Investigación operativa,2023-01-01,6.3
+LU032,Optimización,2023-01-01,4.4
+LU032,Mecánica cuántica,2023-01-01,7.2
+LU032,Estadística,2023-01-01,8.1
+LU032,Física,2023-01-01,6.0
+LU032,Álgebra lineal,2023-01-01,8.9
+LU032,Probabilidad,2023-01-01,6.2
+LU032,Topología,2023-01-01,8.1
+LU033,Matemáticas aplicadas,2023-01-01,5.0
+LU033,Álgebra lineal,2023-01-01,5.4
+LU033,Geometría,2023-01-01,4.4
+LU034,Topología,2023-01-01,9.8
+LU034,Geometría,2023-01-01,4.2
+LU034,Probabilidad,2023-01-01,4.3
+LU034,Optimización,2023-01-01,6.5
+LU035,Matemáticas aplicadas,2023-01-01,4.6
+LU035,Álgebra,2023-01-01,9.0
+LU035,Álgebra lineal,2023-01-01,6.7
+LU035,Biología,2023-01-01,5.6
+LU035,Cálculo,2023-01-01,9.3
+LU035,Física,2023-01-01,5.4
+LU035,Programación,2023-01-01,4.2
+LU035,Optimización,2023-01-01,5.0
+LU035,Topología,2023-01-01,6.1
+LU035,Geometría,2023-01-01,7.2
+LU036,Geometría,2023-01-01,7.2
+LU036,Física,2023-01-01,5.9
+LU036,Álgebra,2023-01-01,4.9
+LU036,Topología,2023-01-01,5.1
+LU036,Biología,2023-01-01,4.6
+LU036,Química,2023-01-01,9.4
+LU036,Matemáticas aplicadas,2023-01-01,5.0
+LU036,Optimización,2023-01-01,9.3
+LU036,Estadística,2023-01-01,4.6
+LU036,Cálculo,2023-01-01,9.4
+LU037,Mecánica cuántica,2023-01-01,4.9
+LU037,Biología,2023-01-01,5.2
+LU037,Álgebra,2023-01-01,4.3
+LU037,Probabilidad,2023-01-01,9.0
+LU037,Geometría,2023-01-01,7.6
+LU037,Química,2023-01-01,8.4
+LU038,Programación,2023-01-01,9.9
+LU038,Química,2023-01-01,6.2
+LU038,Geometría,2023-01-01,6.0
+LU038,Investigación operativa,2023-01-01,9.1
+LU038,Mecánica cuántica,2023-01-01,5.8
+LU038,Cálculo,2023-01-01,6.1
+LU038,Biología,2023-01-01,6.2
+LU038,Matemáticas aplicadas,2023-01-01,9.3
+LU038,Topología,2023-01-01,9.3
+LU038,Estadística,2023-01-01,5.5
+LU038,Física,2023-01-01,8.3
+LU038,Álgebra lineal,2023-01-01,5.1
+LU039,Optimización,2023-01-01,8.6
+LU039,Álgebra,2023-01-01,6.4
+LU039,Investigación operativa,2023-01-01,5.6
+LU039,Biología,2023-01-01,6.2
+LU039,Mecánica cuántica,2023-01-01,9.6
+LU039,Geometría,2023-01-01,4.4
+LU039,Estadística,2023-01-01,6.6
+LU039,Programación,2023-01-01,8.2
+LU039,Química,2023-01-01,5.0
+LU039,Matemáticas aplicadas,2023-01-01,8.9
+LU039,Cálculo,2023-01-01,9.1
+LU039,Probabilidad,2023-01-01,7.3
+LU039,Topología,2023-01-01,5.3
+LU039,Álgebra lineal,2023-01-01,9.1
+LU040,Biología,2023-01-01,7.2
+LU040,Optimización,2023-01-01,8.5
+LU040,Investigación operativa,2023-01-01,4.8
+LU040,Probabilidad,2023-01-01,8.8
+LU040,Matemáticas aplicadas,2023-01-01,8.0
+LU040,Topología,2023-01-01,4.8
+LU040,Mecánica cuántica,2023-01-01,5.9
+LU040,Física,2023-01-01,8.0
+LU040,Álgebra lineal,2023-01-01,5.1
+LU040,Programación,2023-01-01,9.9
+LU040,Cálculo,2023-01-01,9.2
+LU040,Geometría,2023-01-01,5.1
+LU040,Estadística,2023-01-01,5.9
+LU040,Química,2023-01-01,4.5
+LU041,Programación,2023-01-01,9.5
+LU041,Matemáticas aplicadas,2023-01-01,7.8
+LU041,Optimización,2023-01-01,9.7
+LU041,Geometría,2023-01-01,5.2
+LU041,Biología,2023-01-01,9.4
+LU041,Probabilidad,2023-01-01,9.8
+LU041,Álgebra lineal,2023-01-01,4.4
+LU041,Investigación operativa,2023-01-01,7.1
+LU041,Estadística,2023-01-01,7.6
+LU041,Mecánica cuántica,2023-01-01,5.5
+LU041,Álgebra,2023-01-01,7.3
+LU041,Física,2023-01-01,5.3
+LU041,Topología,2023-01-01,8.7
+LU041,Química,2023-01-01,9.4
+LU041,Cálculo,2023-01-01,8.0
+LU042,Mecánica cuántica,2023-01-01,7.7
+LU042,Álgebra lineal,2023-01-01,4.7
+LU042,Geometría,2023-01-01,9.2
+LU042,Programación,2023-01-01,9.3
+LU042,Estadística,2023-01-01,6.2
+LU042,Matemáticas aplicadas,2023-01-01,6.9
+LU042,Cálculo,2023-01-01,8.9
+LU042,Biología,2023-01-01,4.7
+LU042,Optimización,2023-01-01,7.8
+LU042,Química,2023-01-01,6.5
+LU042,Álgebra,2023-01-01,8.3
+LU042,Investigación operativa,2023-01-01,7.3
+LU042,Probabilidad,2023-01-01,8.0
+LU043,Programación,2023-01-01,9.3
+LU043,Geometría,2023-01-01,9.5
+LU043,Investigación operativa,2023-01-01,5.6
+LU043,Álgebra lineal,2023-01-01,4.4
+LU043,Matemáticas aplicadas,2023-01-01,4.2
+LU043,Cálculo,2023-01-01,7.6
+LU043,Mecánica cuántica,2023-01-01,9.4
+LU044,Biología,2023-01-01,8.0
+LU044,Álgebra lineal,2023-01-01,4.2
+LU044,Investigación operativa,2023-01-01,7.9
+LU044,Programación,2023-01-01,9.4
+LU044,Topología,2023-01-01,9.9
+LU045,Estadística,2023-01-01,8.7
+LU045,Biología,2023-01-01,9.2
+LU045,Álgebra,2023-01-01,9.4
+LU046,Física,2023-01-01,5.2
+LU046,Álgebra,2023-01-01,4.9
+LU046,Cálculo,2023-01-01,8.1
+LU046,Estadística,2023-01-01,5.4
+LU046,Geometría,2023-01-01,4.6
+LU046,Probabilidad,2023-01-01,9.9
+LU046,Matemáticas aplicadas,2023-01-01,7.9
+LU046,Topología,2023-01-01,8.9
+LU046,Álgebra lineal,2023-01-01,7.7
+LU046,Biología,2023-01-01,6.7
+LU046,Optimización,2023-01-01,4.8
+LU046,Química,2023-01-01,9.4
+LU046,Investigación operativa,2023-01-01,6.6
+LU046,Mecánica cuántica,2023-01-01,8.0
+LU046,Programación,2023-01-01,5.4
+LU047,Química,2023-01-01,4.2
+LU047,Probabilidad,2023-01-01,7.0
+LU047,Álgebra lineal,2023-01-01,4.2
+LU047,Programación,2023-01-01,7.8
+LU047,Álgebra,2023-01-01,8.2
+LU047,Biología,2023-01-01,6.8
+LU047,Física,2023-01-01,9.4
+LU047,Geometría,2023-01-01,4.0
+LU047,Matemáticas aplicadas,2023-01-01,4.7
+LU047,Topología,2023-01-01,7.2
+LU048,Optimización,2023-01-01,8.9
+LU048,Geometría,2023-01-01,9.2
+LU048,Investigación operativa,2023-01-01,8.5
+LU048,Programación,2023-01-01,9.0
+LU048,Estadística,2023-01-01,4.5
+LU048,Mecánica cuántica,2023-01-01,8.3
+LU048,Cálculo,2023-01-01,7.6
+LU048,Topología,2023-01-01,8.0
+LU048,Física,2023-01-01,5.3
+LU048,Probabilidad,2023-01-01,7.9
+LU048,Matemáticas aplicadas,2023-01-01,8.0
+LU048,Álgebra,2023-01-01,5.3
+LU049,Geometría,2023-01-01,8.3
+LU049,Matemáticas aplicadas,2023-01-01,5.9
+LU049,Álgebra lineal,2023-01-01,6.4
+LU049,Cálculo,2023-01-01,7.1
+LU049,Investigación operativa,2023-01-01,6.3
+LU050,Química,2023-01-01,4.8
+LU050,Matemáticas aplicadas,2023-01-01,6.4
+LU050,Programación,2023-01-01,7.9
+LU050,Biología,2023-01-01,7.0
+LU050,Estadística,2023-01-01,5.5
+LU050,Geometría,2023-01-01,5.7
+LU050,Investigación operativa,2023-01-01,6.3
+LU050,Optimización,2023-01-01,7.7
+LU050,Topología,2023-01-01,4.6
+LU050,Cálculo,2023-01-01,5.6
+LU051,Programación,2023-01-01,5.4
+LU051,Estadística,2023-01-01,7.7
+LU051,Probabilidad,2023-01-01,9.9
+LU051,Álgebra,2023-01-01,5.0
+LU051,Topología,2023-01-01,4.9
+LU051,Química,2023-01-01,7.9
+LU052,Química,2023-01-01,9.8
+LU052,Matemáticas aplicadas,2023-01-01,9.8
+LU052,Investigación operativa,2023-01-01,9.6
+LU052,Programación,2023-01-01,5.6
+LU052,Optimización,2023-01-01,5.9
+LU052,Estadística,2023-01-01,6.6
+LU052,Álgebra,2023-01-01,9.3
+LU053,Investigación operativa,2023-01-01,5.8
+LU053,Optimización,2023-01-01,9.0
+LU053,Álgebra,2023-01-01,5.4
+LU053,Estadística,2023-01-01,8.0
+LU053,Cálculo,2023-01-01,7.5
+LU053,Biología,2023-01-01,8.4
+LU053,Química,2023-01-01,9.2
+LU053,Topología,2023-01-01,5.9
+LU053,Geometría,2023-01-01,4.9
+LU054,Topología,2023-01-01,6.9
+LU054,Química,2023-01-01,8.4
+LU054,Cálculo,2023-01-01,4.2
+LU054,Matemáticas aplicadas,2023-01-01,6.2
+LU054,Álgebra lineal,2023-01-01,9.0
+LU054,Geometría,2023-01-01,8.0
+LU054,Álgebra,2023-01-01,8.9
+LU054,Optimización,2023-01-01,8.9
+LU054,Probabilidad,2023-01-01,5.6
+LU054,Mecánica cuántica,2023-01-01,4.3
+LU054,Biología,2023-01-01,4.6
+LU055,Biología,2023-01-01,8.3
+LU055,Química,2023-01-01,6.0
+LU055,Álgebra,2023-01-01,4.3
+LU055,Física,2023-01-01,8.4
+LU055,Investigación operativa,2023-01-01,5.1
+LU055,Geometría,2023-01-01,5.0
+LU055,Álgebra lineal,2023-01-01,4.4
+LU055,Probabilidad,2023-01-01,5.7
+LU056,Probabilidad,2023-01-01,9.6
+LU056,Física,2023-01-01,4.9
+LU056,Matemáticas aplicadas,2023-01-01,9.6
+LU056,Cálculo,2023-01-01,4.9
+LU056,Topología,2023-01-01,8.7
+LU056,Optimización,2023-01-01,5.1
+LU056,Biología,2023-01-01,6.4
+LU056,Química,2023-01-01,6.6
+LU056,Álgebra,2023-01-01,7.4
+LU056,Investigación operativa,2023-01-01,9.9
+LU056,Geometría,2023-01-01,6.2
+LU056,Estadística,2023-01-01,5.9
+LU056,Programación,2023-01-01,4.9
+LU056,Álgebra lineal,2023-01-01,8.9
+LU056,Mecánica cuántica,2023-01-01,5.6
+LU057,Álgebra lineal,2023-01-01,7.4
+LU057,Investigación operativa,2023-01-01,8.0
+LU057,Programación,2023-01-01,9.9
+LU057,Probabilidad,2023-01-01,5.7
+LU058,Estadística,2023-01-01,7.6
+LU058,Álgebra,2023-01-01,7.9
+LU058,Química,2023-01-01,6.4
+LU058,Álgebra lineal,2023-01-01,6.1
+LU058,Programación,2023-01-01,9.2
+LU058,Mecánica cuántica,2023-01-01,4.9
+LU058,Probabilidad,2023-01-01,8.1
+LU059,Física,2023-01-01,8.4
+LU059,Programación,2023-01-01,5.8
+LU059,Probabilidad,2023-01-01,6.6
+LU059,Geometría,2023-01-01,5.8
+LU059,Optimización,2023-01-01,6.6
+LU059,Biología,2023-01-01,7.5
+LU059,Álgebra,2023-01-01,7.2
+LU059,Investigación operativa,2023-01-01,9.8
+LU059,Matemáticas aplicadas,2023-01-01,7.4
+LU059,Cálculo,2023-01-01,7.6
+LU059,Álgebra lineal,2023-01-01,5.3
+LU059,Estadística,2023-01-01,7.5
+LU059,Topología,2023-01-01,8.0
+LU059,Química,2023-01-01,9.9
+LU059,Mecánica cuántica,2023-01-01,7.0
+LU060,Álgebra lineal,2023-01-01,6.5
+LU060,Probabilidad,2023-01-01,7.0
+LU060,Estadística,2023-01-01,9.1
+LU060,Investigación operativa,2023-01-01,4.5
+LU060,Geometría,2023-01-01,9.2
+LU060,Álgebra,2023-01-01,5.0
+LU060,Optimización,2023-01-01,7.3
+LU060,Matemáticas aplicadas,2023-01-01,6.2
+LU060,Mecánica cuántica,2023-01-01,7.6
+LU060,Física,2023-01-01,4.3
+LU060,Topología,2023-01-01,4.3
+LU060,Cálculo,2023-01-01,4.1
+LU060,Química,2023-01-01,7.1
+LU061,Biología,2023-01-01,6.7
+LU061,Geometría,2023-01-01,8.5
+LU061,Cálculo,2023-01-01,7.0
+LU061,Optimización,2023-01-01,9.6
+LU061,Álgebra lineal,2023-01-01,5.1
+LU061,Matemáticas aplicadas,2023-01-01,5.5
+LU061,Mecánica cuántica,2023-01-01,6.1
+LU061,Estadística,2023-01-01,4.2
+LU061,Álgebra,2023-01-01,5.1
+LU061,Probabilidad,2023-01-01,8.6
+LU061,Química,2023-01-01,4.3
+LU061,Topología,2023-01-01,5.7
+LU061,Programación,2023-01-01,6.6
+LU062,Biología,2023-01-01,9.8
+LU062,Química,2023-01-01,5.7
+LU062,Física,2023-01-01,4.9
+LU062,Estadística,2023-01-01,9.6
+LU062,Mecánica cuántica,2023-01-01,4.8
+LU062,Topología,2023-01-01,7.9
+LU062,Investigación operativa,2023-01-01,9.5
+LU062,Álgebra,2023-01-01,7.2
+LU062,Optimización,2023-01-01,9.2
+LU062,Cálculo,2023-01-01,4.1
+LU062,Programación,2023-01-01,6.7
+LU062,Probabilidad,2023-01-01,7.1
+LU063,Geometría,2023-01-01,9.3
+LU063,Física,2023-01-01,8.3
+LU063,Investigación operativa,2023-01-01,7.8
+LU063,Probabilidad,2023-01-01,6.7
+LU063,Topología,2023-01-01,4.4
+LU063,Mecánica cuántica,2023-01-01,5.1
+LU063,Biología,2023-01-01,8.2
+LU063,Química,2023-01-01,5.7
+LU063,Programación,2023-01-01,4.1
+LU063,Estadística,2023-01-01,9.1
+LU063,Cálculo,2023-01-01,9.9
+LU063,Matemáticas aplicadas,2023-01-01,9.2
+LU063,Álgebra,2023-01-01,6.8
+LU063,Álgebra lineal,2023-01-01,8.5
+LU063,Optimización,2023-01-01,7.5
+LU064,Matemáticas aplicadas,2023-01-01,5.6
+LU064,Investigación operativa,2023-01-01,7.1
+LU064,Mecánica cuántica,2023-01-01,7.2
+LU064,Álgebra,2023-01-01,6.8
+LU065,Mecánica cuántica,2023-01-01,8.7
+LU065,Programación,2023-01-01,10.0
+LU065,Estadística,2023-01-01,8.9
+LU065,Matemáticas aplicadas,2023-01-01,6.4
+LU065,Física,2023-01-01,4.8
+LU065,Probabilidad,2023-01-01,4.8
+LU065,Química,2023-01-01,6.8
+LU065,Biología,2023-01-01,5.4
+LU065,Cálculo,2023-01-01,9.2
+LU065,Investigación operativa,2023-01-01,5.5
+LU065,Optimización,2023-01-01,6.9
+LU065,Topología,2023-01-01,6.2
+LU065,Geometría,2023-01-01,8.5
+LU065,Álgebra,2023-01-01,9.3
+LU066,Química,2023-01-01,6.4
+LU066,Matemáticas aplicadas,2023-01-01,9.6
+LU066,Física,2023-01-01,8.2
+LU066,Mecánica cuántica,2023-01-01,4.2
+LU066,Biología,2023-01-01,9.3
+LU066,Investigación operativa,2023-01-01,8.9
+LU066,Cálculo,2023-01-01,4.0
+LU066,Álgebra,2023-01-01,8.6
+LU066,Optimización,2023-01-01,5.2
+LU066,Estadística,2023-01-01,6.1
+LU066,Topología,2023-01-01,5.4
+LU067,Biología,2023-01-01,8.7
+LU067,Optimización,2023-01-01,4.5
+LU067,Matemáticas aplicadas,2023-01-01,5.0
+LU067,Topología,2023-01-01,6.5
+LU067,Probabilidad,2023-01-01,9.8
+LU067,Investigación operativa,2023-01-01,7.0
+LU067,Geometría,2023-01-01,6.9
+LU067,Álgebra,2023-01-01,8.6
+LU067,Mecánica cuántica,2023-01-01,7.4
+LU067,Cálculo,2023-01-01,4.6
+LU067,Programación,2023-01-01,8.7
+LU067,Química,2023-01-01,7.1
+LU067,Estadística,2023-01-01,9.5
+LU067,Física,2023-01-01,4.1
+LU067,Álgebra lineal,2023-01-01,6.7
+LU068,Matemáticas aplicadas,2023-01-01,8.1
+LU068,Topología,2023-01-01,5.4
+LU068,Optimización,2023-01-01,6.8
+LU068,Álgebra lineal,2023-01-01,4.7
+LU069,Biología,2023-01-01,5.3
+LU069,Álgebra lineal,2023-01-01,4.3
+LU069,Estadística,2023-01-01,7.4
+LU069,Cálculo,2023-01-01,5.2
+LU069,Matemáticas aplicadas,2023-01-01,4.1
+LU069,Mecánica cuántica,2023-01-01,5.0
+LU069,Programación,2023-01-01,4.5
+LU069,Probabilidad,2023-01-01,4.3
+LU069,Investigación operativa,2023-01-01,5.8
+LU069,Optimización,2023-01-01,5.0
+LU069,Química,2023-01-01,6.2
+LU069,Álgebra,2023-01-01,7.5
+LU069,Física,2023-01-01,4.7
+LU069,Topología,2023-01-01,8.2
+LU069,Geometría,2023-01-01,6.5
+LU070,Geometría,2023-01-01,8.3
+LU070,Mecánica cuántica,2023-01-01,9.7
+LU070,Programación,2023-01-01,9.2
+LU070,Matemáticas aplicadas,2023-01-01,6.1
+LU070,Probabilidad,2023-01-01,9.7
+LU070,Química,2023-01-01,4.9
+LU070,Cálculo,2023-01-01,9.4
+LU070,Optimización,2023-01-01,6.4
+LU070,Estadística,2023-01-01,6.0
+LU070,Investigación operativa,2023-01-01,9.2
+LU070,Biología,2023-01-01,8.7
+LU070,Física,2023-01-01,7.7
+LU070,Álgebra lineal,2023-01-01,8.2
+LU070,Topología,2023-01-01,7.5
+LU071,Mecánica cuántica,2023-01-01,10.0
+LU071,Química,2023-01-01,7.4
+LU071,Optimización,2023-01-01,4.5
+LU071,Geometría,2023-01-01,8.5
+LU071,Investigación operativa,2023-01-01,5.7
+LU072,Investigación operativa,2023-01-01,4.6
+LU072,Cálculo,2023-01-01,8.3
+LU072,Probabilidad,2023-01-01,4.8
+LU072,Álgebra,2023-01-01,6.6
+LU072,Estadística,2023-01-01,8.8
+LU072,Biología,2023-01-01,9.0
+LU072,Química,2023-01-01,4.4
+LU072,Álgebra lineal,2023-01-01,9.3
+LU072,Matemáticas aplicadas,2023-01-01,5.6
+LU072,Geometría,2023-01-01,7.6
+LU072,Topología,2023-01-01,5.3
+LU072,Optimización,2023-01-01,6.8
+LU072,Mecánica cuántica,2023-01-01,7.5
+LU072,Programación,2023-01-01,4.9
+LU073,Biología,2023-01-01,5.3
+LU073,Topología,2023-01-01,4.6
+LU073,Física,2023-01-01,8.7
+LU074,Física,2023-01-01,8.3
+LU074,Geometría,2023-01-01,4.5
+LU074,Mecánica cuántica,2023-01-01,4.1
+LU074,Álgebra,2023-01-01,9.1
+LU074,Química,2023-01-01,6.8
+LU075,Topología,2023-01-01,4.7
+LU075,Química,2023-01-01,8.5
+LU075,Estadística,2023-01-01,7.4
+LU075,Biología,2023-01-01,4.8
+LU075,Física,2023-01-01,5.7
+LU075,Álgebra,2023-01-01,5.8
+LU075,Geometría,2023-01-01,6.0
+LU075,Optimización,2023-01-01,7.3
+LU075,Mecánica cuántica,2023-01-01,9.9
+LU075,Probabilidad,2023-01-01,5.3
+LU075,Álgebra lineal,2023-01-01,7.1
+LU076,Mecánica cuántica,2023-01-01,4.3
+LU076,Matemáticas aplicadas,2023-01-01,5.8
+LU076,Álgebra,2023-01-01,4.5
+LU076,Investigación operativa,2023-01-01,7.6
+LU076,Probabilidad,2023-01-01,4.9
+LU076,Optimización,2023-01-01,6.0
+LU077,Optimización,2023-01-01,6.2
+LU077,Álgebra,2023-01-01,5.3
+LU077,Topología,2023-01-01,4.2
+LU077,Programación,2023-01-01,8.9
+LU077,Matemáticas aplicadas,2023-01-01,9.3
+LU077,Investigación operativa,2023-01-01,6.9
+LU077,Probabilidad,2023-01-01,8.8
+LU077,Geometría,2023-01-01,4.2
+LU077,Química,2023-01-01,6.2
+LU077,Álgebra lineal,2023-01-01,9.3
+LU077,Mecánica cuántica,2023-01-01,5.3
+LU077,Cálculo,2023-01-01,9.6
+LU077,Biología,2023-01-01,9.3
+LU078,Álgebra,2023-01-01,8.1
+LU078,Cálculo,2023-01-01,5.9
+LU078,Álgebra lineal,2023-01-01,6.4
+LU078,Mecánica cuántica,2023-01-01,9.2
+LU078,Topología,2023-01-01,9.9
+LU078,Investigación operativa,2023-01-01,5.9
+LU078,Física,2023-01-01,6.8
+LU078,Biología,2023-01-01,8.9
+LU078,Química,2023-01-01,9.4
+LU079,Geometría,2023-01-01,9.6
+LU079,Cálculo,2023-01-01,4.4
+LU079,Química,2023-01-01,7.9
+LU079,Programación,2023-01-01,8.7
+LU079,Estadística,2023-01-01,6.2
+LU079,Investigación operativa,2023-01-01,4.5
+LU079,Álgebra lineal,2023-01-01,4.6
+LU079,Topología,2023-01-01,9.9
+LU079,Optimización,2023-01-01,5.2
+LU079,Álgebra,2023-01-01,4.6
+LU079,Matemáticas aplicadas,2023-01-01,8.6
+LU080,Matemáticas aplicadas,2023-01-01,5.2
+LU080,Estadística,2023-01-01,8.2
+LU080,Topología,2023-01-01,6.4
+LU080,Programación,2023-01-01,6.8
+LU080,Geometría,2023-01-01,7.5
+LU080,Mecánica cuántica,2023-01-01,6.8
+LU081,Investigación operativa,2023-01-01,4.8
+LU081,Biología,2023-01-01,7.1
+LU081,Matemáticas aplicadas,2023-01-01,5.1
+LU081,Álgebra lineal,2023-01-01,7.9
+LU081,Estadística,2023-01-01,7.9
+LU081,Optimización,2023-01-01,8.5
+LU081,Química,2023-01-01,4.1
+LU081,Cálculo,2023-01-01,8.7
+LU081,Geometría,2023-01-01,7.9
+LU081,Probabilidad,2023-01-01,5.8
+LU081,Mecánica cuántica,2023-01-01,6.5
+LU081,Física,2023-01-01,4.9
+LU081,Topología,2023-01-01,8.0
+LU082,Física,2023-01-01,7.3
+LU082,Probabilidad,2023-01-01,6.0
+LU082,Geometría,2023-01-01,8.8
+LU082,Optimización,2023-01-01,8.1
+LU082,Estadística,2023-01-01,7.4
+LU082,Química,2023-01-01,9.4
+LU082,Álgebra lineal,2023-01-01,9.1
+LU082,Topología,2023-01-01,5.8
+LU082,Biología,2023-01-01,4.7
+LU082,Investigación operativa,2023-01-01,9.0
+LU082,Matemáticas aplicadas,2023-01-01,7.9
+LU082,Álgebra,2023-01-01,5.9
+LU082,Programación,2023-01-01,5.9
+LU082,Mecánica cuántica,2023-01-01,7.9
+LU082,Cálculo,2023-01-01,7.6
+LU083,Matemáticas aplicadas,2023-01-01,4.6
+LU083,Mecánica cuántica,2023-01-01,9.7
+LU083,Cálculo,2023-01-01,5.4
+LU083,Programación,2023-01-01,7.9
+LU083,Investigación operativa,2023-01-01,6.3
+LU083,Estadística,2023-01-01,8.8
+LU083,Probabilidad,2023-01-01,9.9
+LU083,Topología,2023-01-01,7.5
+LU083,Álgebra,2023-01-01,4.9
+LU083,Química,2023-01-01,4.4
+LU084,Álgebra,2023-01-01,5.5
+LU084,Probabilidad,2023-01-01,4.9
+LU084,Optimización,2023-01-01,8.9
+LU084,Programación,2023-01-01,6.5
+LU084,Matemáticas aplicadas,2023-01-01,4.8
+LU085,Cálculo,2023-01-01,9.6
+LU085,Biología,2023-01-01,6.1
+LU085,Probabilidad,2023-01-01,6.7
+LU085,Programación,2023-01-01,9.8
+LU085,Mecánica cuántica,2023-01-01,6.7
+LU086,Topología,2023-01-01,9.2
+LU086,Probabilidad,2023-01-01,5.0
+LU086,Álgebra lineal,2023-01-01,5.8
+LU086,Programación,2023-01-01,5.1
+LU086,Matemáticas aplicadas,2023-01-01,7.0
+LU086,Álgebra,2023-01-01,6.1
+LU086,Estadística,2023-01-01,4.2
+LU087,Probabilidad,2023-01-01,4.5
+LU087,Álgebra,2023-01-01,5.7
+LU087,Optimización,2023-01-01,5.5
+LU087,Física,2023-01-01,5.8
+LU088,Geometría,2023-01-01,9.6
+LU088,Estadística,2023-01-01,9.3
+LU088,Biología,2023-01-01,7.5
+LU088,Matemáticas aplicadas,2023-01-01,6.9
+LU088,Probabilidad,2023-01-01,7.3
+LU088,Programación,2023-01-01,5.9
+LU088,Optimización,2023-01-01,8.3
+LU088,Mecánica cuántica,2023-01-01,6.1
+LU088,Investigación operativa,2023-01-01,5.6
+LU088,Topología,2023-01-01,6.7
+LU088,Álgebra,2023-01-01,8.5
+LU088,Álgebra lineal,2023-01-01,5.2
+LU088,Cálculo,2023-01-01,4.5
+LU088,Física,2023-01-01,5.3
+LU088,Química,2023-01-01,8.7
+LU089,Mecánica cuántica,2023-01-01,7.4
+LU089,Física,2023-01-01,8.3
+LU089,Cálculo,2023-01-01,4.0
+LU089,Programación,2023-01-01,6.1
+LU089,Optimización,2023-01-01,7.7
+LU089,Matemáticas aplicadas,2023-01-01,7.1
+LU089,Álgebra,2023-01-01,5.9
+LU089,Geometría,2023-01-01,6.9
+LU090,Química,2023-01-01,8.7
+LU090,Álgebra lineal,2023-01-01,6.3
+LU090,Física,2023-01-01,6.2
+LU090,Mecánica cuántica,2023-01-01,4.0
+LU090,Biología,2023-01-01,7.6
+LU091,Mecánica cuántica,2023-01-01,5.1
+LU091,Probabilidad,2023-01-01,7.3
+LU091,Optimización,2023-01-01,4.8
+LU091,Química,2023-01-01,9.0
+LU091,Programación,2023-01-01,8.8
+LU091,Cálculo,2023-01-01,5.2
+LU091,Álgebra,2023-01-01,9.9
+LU091,Matemáticas aplicadas,2023-01-01,5.0
+LU091,Topología,2023-01-01,4.8
+LU091,Física,2023-01-01,6.1
+LU091,Investigación operativa,2023-01-01,6.8
+LU092,Mecánica cuántica,2023-01-01,5.9
+LU092,Investigación operativa,2023-01-01,9.5
+LU092,Optimización,2023-01-01,8.9
+LU092,Programación,2023-01-01,5.1
+LU092,Probabilidad,2023-01-01,8.0
+LU092,Cálculo,2023-01-01,7.6
+LU092,Topología,2023-01-01,5.9
+LU092,Geometría,2023-01-01,9.8
+LU092,Estadística,2023-01-01,4.5
+LU092,Matemáticas aplicadas,2023-01-01,5.2
+LU092,Álgebra lineal,2023-01-01,7.9
+LU092,Álgebra,2023-01-01,4.3
+LU092,Química,2023-01-01,6.3
+LU092,Biología,2023-01-01,8.3
+LU092,Física,2023-01-01,9.3
+LU093,Optimización,2023-01-01,4.7
+LU093,Geometría,2023-01-01,8.8
+LU093,Programación,2023-01-01,9.6
+LU093,Mecánica cuántica,2023-01-01,5.8
+LU094,Mecánica cuántica,2023-01-01,7.0
+LU094,Topología,2023-01-01,9.9
+LU094,Álgebra,2023-01-01,5.1
+LU094,Química,2023-01-01,9.2
+LU094,Matemáticas aplicadas,2023-01-01,7.4
+LU094,Estadística,2023-01-01,9.4
+LU095,Matemáticas aplicadas,2023-01-01,4.0
+LU095,Programación,2023-01-01,8.9
+LU095,Biología,2023-01-01,8.0
+LU095,Probabilidad,2023-01-01,6.7
+LU095,Cálculo,2023-01-01,6.8
+LU096,Álgebra lineal,2023-01-01,6.2
+LU096,Programación,2023-01-01,4.8
+LU096,Matemáticas aplicadas,2023-01-01,4.2
+LU096,Probabilidad,2023-01-01,9.0
+LU096,Cálculo,2023-01-01,4.7
+LU096,Mecánica cuántica,2023-01-01,6.8
+LU096,Física,2023-01-01,6.7
+LU096,Estadística,2023-01-01,8.8
+LU097,Investigación operativa,2023-01-01,8.5
+LU097,Estadística,2023-01-01,7.5
+LU097,Topología,2023-01-01,6.0
+LU097,Mecánica cuántica,2023-01-01,6.8
+LU097,Matemáticas aplicadas,2023-01-01,4.9
+LU097,Cálculo,2023-01-01,5.0
+LU097,Química,2023-01-01,7.5
+LU097,Álgebra lineal,2023-01-01,7.1
+LU097,Optimización,2023-01-01,6.0
+LU097,Geometría,2023-01-01,5.5
+LU098,Física,2023-01-01,7.7
+LU098,Estadística,2023-01-01,8.3
+LU098,Investigación operativa,2023-01-01,5.8
+LU098,Matemáticas aplicadas,2023-01-01,5.7
+LU098,Mecánica cuántica,2023-01-01,5.2
+LU098,Optimización,2023-01-01,4.3
+LU098,Probabilidad,2023-01-01,7.9
+LU098,Álgebra,2023-01-01,7.1
+LU098,Cálculo,2023-01-01,5.8
+LU098,Biología,2023-01-01,4.6
+LU098,Química,2023-01-01,6.1
+LU098,Álgebra lineal,2023-01-01,7.0
+LU098,Topología,2023-01-01,4.2
+LU098,Geometría,2023-01-01,7.3
+LU098,Programación,2023-01-01,4.3
+LU099,Biología,2023-01-01,6.6
+LU099,Matemáticas aplicadas,2023-01-01,8.0
+LU099,Programación,2023-01-01,9.9
+LU099,Álgebra lineal,2023-01-01,9.0
+LU100,Programación,2023-01-01,7.5
+LU100,Química,2023-01-01,5.2
+LU100,Investigación operativa,2023-01-01,7.8
+LU100,Matemáticas aplicadas,2023-01-01,7.2
+LU100,Mecánica cuántica,2023-01-01,4.3
+LU100,Biología,2023-01-01,8.9
+LU100,Probabilidad,2023-01-01,9.2
+LU100,Álgebra lineal,2023-01-01,6.1
+LU100,Álgebra,2023-01-01,9.9
+LU100,Cálculo,2023-01-01,9.4

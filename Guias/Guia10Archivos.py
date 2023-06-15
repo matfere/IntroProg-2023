@@ -1,5 +1,5 @@
 from typing import List
-
+import csv
 #Manejo de archivos // esto no lo toman pero esta bueno saberlo igual
 
 #EJ1
@@ -59,6 +59,27 @@ def archivoAlveres(archivoOrigen: str) -> str:
     
     return texto
 
+#EJ7
+
+def promedioEstudiante(lu: str) -> float:
+    total_notas = 0
+    cantidad_notas = 0
+
+    with open("C:/Users/matu/Desktop/Facultad/Repos/IntroProg/IntroProg-2023/Guias/alumnos.csv", mode="r") as file:
+        reader = csv.reader(file)
+        next(reader)  # Saltar la primera línea que contiene los encabezados
+
+        for row in reader:
+            if row[0] == lu:
+                nota = float(row[3])
+                total_notas += nota
+                cantidad_notas += 1
+
+    if cantidad_notas == 0:
+        return 0  # El alumno no se encontró en el archivo CSV
+
+    promedio = total_notas / cantidad_notas
+    return promedio
 
 
 
@@ -93,4 +114,7 @@ if __name__ == "__main__":
     resultado = archivoAlveres(contenido)
     print(resultado)
     dameVuelta3.write(resultado)
+    
+    #EJ7
+    print("EJ7:\n   LU001: ", promedioEstudiante(lu="LU001"))
     

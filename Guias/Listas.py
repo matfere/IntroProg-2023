@@ -57,3 +57,43 @@ listaMedica3 = [
     (6, "Miguel", "Psoriasis"),
     (4, "Isabella", "Esclerosis múltiple")
 ]
+
+#lo siguiente es para generar un csv
+
+import csv
+import random
+
+materias_exactas = [
+    "Álgebra",
+    "Cálculo",
+    "Geometría",
+    "Estadística",
+    "Física",
+    "Química",
+    "Biología",
+    "Programación",
+    "Matemáticas aplicadas",
+    "Investigación operativa",
+    "Probabilidad",
+    "Álgebra lineal",
+    "Topología",
+    "Optimización",
+    "Mecánica cuántica"
+]
+
+alumnos = []
+num_materias = len(materias_exactas)
+
+for i in range(1, 101):
+    lu = f"LU{i:03}"
+    materias = random.sample(materias_exactas, random.randint(3, num_materias))
+    fecha = "2023-01-01"  # Fecha de ejemplo
+
+    for materia in materias:
+        nota = round(random.uniform(4.0, 10.0), 1)  # Generar nota aleatoria entre 4.0 y 10.0
+        alumnos.append((lu, materia, fecha, nota))
+
+with open("alumnos.csv", mode="w", newline="") as file:
+    writer = csv.writer(file)
+    writer.writerow(["nro de LU", "materia", "fecha", "nota"])
+    writer.writerows(alumnos)
