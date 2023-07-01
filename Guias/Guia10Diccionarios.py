@@ -35,7 +35,30 @@ def promedioAlumnos() -> dict:
             promediosPorAlumno[LU] = Archivos.promedioEstudiante(lu=LU)
     return promediosPorAlumno
 
+#20
+def laPalabraMasFrecuente(nombre_archivo : str) -> str:
+    archivo = open(nombre_archivo, 'r', encoding='utf-8')
+    textoArchivo = archivo.read()
+    archivo.close()
+    listaPalabras = textoArchivo.split()
+    diccionario = {}
+    cant = 0
+    resultado = ""
+    for palabra in listaPalabras:
+        if palabra not in diccionario.keys():
+            diccionario[palabra] = 1
+        elif palabra in diccionario.keys():
+            diccionario[palabra] += 1
+    for keyPalabra in diccionario.keys():
+        if diccionario[keyPalabra] >= cant:
+            resultado = keyPalabra
+            cant = diccionario[keyPalabra]
+    
+    return resultado
+
 if __name__ == "__main__":
     nombreDelArchivo = "C:/Users/matu/Desktop/Facultad/Repos/IntroProg/IntroProg-2023/Guias/puesto.txt"
     print("Diccionarios\n   Ejercicio 18: ", agruparPorLongitud(nombre_archivo=nombreDelArchivo))
     print("   Ejercicio19: ", promedioAlumnos())
+    print("   Ejercicio20: ", laPalabraMasFrecuente(nombre_archivo=nombreDelArchivo))
+    
