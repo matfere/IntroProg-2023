@@ -84,7 +84,8 @@ def es_par(numero: int) -> bool:
 #6
 def cantidad_de_pizzas(comensales: int, min_cantidad_de_porciones: int) -> int: #la cantidad de porciones por pizza es de 8, y la minima cantidad que come cada uno es el segundo parametro
     
-    return null
+    return None
+
 
 print("Ejercicio 1 \n")
 print("1) ", raizDe2())
